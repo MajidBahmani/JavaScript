@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Main-style.css">
+  <title>Loggin</title>
+</head>
+<body>
+<!-- header -->
+  <header class="header">
+    <div class="divhead">
+      <h1 class="header-h1">Loggin</h1>
+      <p>Please Enter UserName and Password!</p>
+    </div>
+  </header>
+
+<!-- Main -->
+
+  <main class="main">
+    <div class="maindiv">
+      
+      <form class="form">
+        <input type="text" placeholder="UserName">
+        <input id="input-pass" type="password" placeholder="Password">
+        <div style="height: 30px;">
+          <img id="showpass" class="show-pass" onclick="show()" src="Photo/show.png">
+          <img id="hidepass" class="hide-pass" onclick="hide()" src="Photo/hide.png">
+        </div>
+        <button class="mainbtn">Loggin</button>
+        <a class="mainlink" href="#">Forget UserName and Password</a>
+      </form>
+      <div class="finger">
+        <img src="Photo/1669466352490.png" alt="">
+      </div>
+      <div class="back">
+        <a href="">Back to Home</a>
+      </div>
+    </div>
+  </main>
+
+<!-- footer -->
+  <footer class="footer">
+    <div class="footdiv">
+      <div class="footerdiv">
+        <div class="social">
+          <img src="Photo/instagram.png" alt="">
+        </div>
+        <div class="social" >
+          <img src="Photo/twitter.png" alt="">
+        </div>
+        <div class="social" >
+          <img src="Photo/youtube.png" ">
+        </div>
+      </div>
+      <div class="pfoot">
+        <p>Designer: Majid Bahmani</p>
+      </div>
+  </div>
+  </footer>
+
+  <script>
+
+    // ShowPassword
+    function show(){
+      document.getElementById('showpass').style.visibility = 'hidden';
+      document.getElementById('hidepass').style.visibility = 'visible';
+      document.getElementById('input-pass').type = 'text';
+    }
+    
+    // HidePassword
+    function hide(){
+      document.getElementById('showpass').style.visibility = 'visible';
+      document.getElementById('hidepass').style.visibility = 'hidden';
+      document.getElementById('input-pass').type = 'password';
+    }
+    
+  </script>
+</body>
+</html>
