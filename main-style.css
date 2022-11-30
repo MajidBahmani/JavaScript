@@ -1,0 +1,150 @@
+*{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+}
+
+.header-h1{
+  text-align: center;
+  margin-top: 10px;
+  color: #333;
+}
+
+header p{
+  text-align: center;
+  color: #333;
+}
+
+.divhead{
+  width: 400px;
+  height: 100px;
+  background-color:#b4b4b4 ;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+}
+
+.maindiv{
+  margin: 0;
+  width: 400px;
+  height: 400px;
+  background-color:#b4b4b4 ;
+  
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form input{
+  width: 300px;
+  height: 40px;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.mainbtn{
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.mainlink{
+  margin-top: 25px;
+  color:#333;
+  text-decoration: none;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+}
+
+.footdiv{
+  margin: 0;
+  width: 400px;
+  height: 100px;
+  background-color:#b4b4b4 ;
+  
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.footerdiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social{
+  margin-top: 20px;
+}
+
+.social img{
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.back{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.back a{
+  text-decoration: none;
+  color:#333;
+  font-size: small;
+}
+
+.pfoot{
+  display: flex;
+  justify-content: center;
+  color: #333;
+  font-size: smaller;
+}
+.finger{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.finger img{
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.show-pass{
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: -35px;
+  left: 144px;
+  cursor: pointer;
+  margin: 0;
+}
+.hide-pass{
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: -35px;
+  left: 110px;
+  cursor: pointer;
+  visibility: hidden;
+  margin: 0;
+}
